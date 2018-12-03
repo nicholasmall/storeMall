@@ -1,0 +1,262 @@
+* {
+    list-style-type: none;
+}
+
+/*导航*/
+
+#help {
+    background-color: #000000;
+    position: relative;
+}
+
+#help .navbar-default .navbar-nav > li > a {
+    color: #FFF;
+}
+
+/*底部样式*/
+
+.footer_help {
+    margin-top: 25px;
+    background-color: #373737;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: #FFFFFF;
+}
+
+.contain {
+    padding: 70px 0;
+}
+
+.contain .title {
+    font-size: 15px;
+    padding: 0 15px;
+}
+
+.manageAdd {
+    float: right;
+    color: #cc7a00;
+    cursor: pointer;
+    text-decoration-line: none;
+}
+
+.col-sm-3_add {
+    padding: 0;
+    border: 1px solid #e2e2e2;
+    cursor: pointer;
+}
+
+.card-body {
+    padding: 10px;
+    border: #ddd 5px solid;
+    border-color: transparent;
+    background: linear-gradient(#fff, #fff) padding-box, repeating-linear-gradient(-45deg, #ff000038 0, #ff000038 12.5%, transparent 0, transparent 25%, #0000ff3d 0, #0000ff3d 37.5%, transparent 0, transparent 50%) 0/55px 55px
+}
+
+.checked {
+    background: linear-gradient(#fff, #fff) padding-box,
+    repeating-linear-gradient(-45deg, red 0, red 12.5%, transparent 0, transparent 25%, blue 0, blue 37.5%, transparent 0, transparent 50%) 0/55px 55px;
+}
+
+.checked .modification, .checked .img {
+    opacity: 1;
+}
+
+.name {
+    border-bottom: 1px solid #ddd;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.address {
+    font-size: 14px;
+}
+
+.defaultAdd {
+    font-size: 13px;
+    position: absolute;
+    right: 16px;
+    top: 0;
+    background: #000;
+    padding: 3px 5px;
+    opacity: 0.3;
+    color: #fff;
+}
+
+.modification {
+    opacity: 0;
+    margin: 0;
+}
+
+.modification > a {
+    color: #cc7a00;
+    cursor: pointer;
+    font-size: 15px;
+    text-decoration-line: none;
+}
+
+.img {
+    position: absolute;
+    width: 35px;
+    right: 16px;
+    bottom: 0;
+    opacity: 0;
+}
+
+.addressAll .col-sm-3 {
+    margin: 20px 0;
+}
+
+.show_add {
+    float: left;
+}
+
+.show_add a {
+    padding-left: 15px;
+    color: #cc7a00;
+    cursor: pointer;
+    text-decoration-line: none;
+}
+
+.orderList {
+    float: left;
+    margin-top: 35px;
+}
+
+.table th, td {
+    text-align: center;
+    color: #8a8a8a;
+    font-size: 13px;
+}
+
+.table-condensed thead > tr > th, .table-condensed tbody > tr > th, .table-condensed tfoot > tr > th, .table-condensed thead > tr > td, .table-condensed tbody > tr > td, .table-condensed tfoot > tr > td {
+    padding: 20px 0 10px 0;
+}
+
+.table thead > tr > th, .table tbody > tr > th, .table tfoot > tr > th, .table thead > tr > td, .table tbody > tr > td, .table tfoot > tr > td {
+    border-top: 1px #ddd dashed;
+}
+
+.table tbody > tr:last-child {
+    border-bottom: 1px #ddd dashed;
+}
+
+.tabletr tr > th:nth-child(1), td:nth-child(1) {
+    text-align: left;
+}
+
+.enteramount {
+    width: 80px;
+    margin: 0 15px;
+    height: 30px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.glyphicon {
+    cursor: pointer;
+}
+
+.del {
+    cursor: pointer;
+    padding: 10px 15px;
+    color: #8a8a8a;
+}
+
+.del:hover {
+    color: #000
+}
+
+.clearbox {
+    float: right;
+    text-align: right;
+    padding: 0;
+}
+
+.clearing {
+    border: 1px solid red;
+    padding: 15px;
+}
+
+.clearing .title_clear {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.clear_price {
+    color: red;
+    font-size: 20px;
+}
+
+.submitOrder {
+    background: red;
+    border-color: red;
+    border-radius: 0;
+    width: 30%;
+    font-weight: 300;
+    height: 40px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.submitOrder:hover, .submitOrder:visited {
+    background: #de0000;
+    border-color: #de0000;
+    color: #fff;
+}
+
+.dialog {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #000000cf;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: none;
+}
+
+.logBox {
+    width: 580px;
+    height: auto;
+    padding: 50px;
+    max-height: 780px;
+    background: #fff;
+    margin: auto;
+    margin-top: 15%;
+    padding-bottom: 15px;
+    position: relative;
+}
+
+.removeIcon {
+    padding: 5px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.control-label {
+    padding: 0;
+    font-weight: 300;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.glyphicon-chevron-down {
+    position: absolute;
+    right: 25px;
+    top: 10px;
+}
+
+.saveBtn, .cancelBtn {
+    width: 24%;
+    margin: 0 20px;
+}
+
+.selectAddress .city-picker-span, .city-picker-dropdown {
+    width: 411px !important;
+    margin-left: 17px;
+}

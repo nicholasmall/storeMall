@@ -1,0 +1,46 @@
+	.discounts{
+		padding: 2px 20px;
+    	border: 1px solid #ccc;
+    	cursor: pointer;
+	}
+	.radio-inline .checkedRadios{
+		border: 1px solid red;
+	}
+	.radio-inline img{
+		width: 10px;
+	    margin-left: -10px;
+	    margin-top: 8px;
+	}
+	.radio-inline{
+		margin: 5px !important;
+	}
+	.discountsBtn{
+		/* position: absolute; */
+	    padding: 3px 15px;
+	    border: 1px solid red;
+	    color: red;
+	    cursor: pointer;
+	}
+	.discountsBtnactive{
+		z-index: 100;
+    	border-bottom: 1px solid #fff;
+	}
+	.discountsBtn:hover{
+		text-decoration: none;
+		 color: red;
+	}
+	.discountsBox{
+		display:none;
+		position: absolute;
+	    text-align: left;
+	    border: 1px solid red;
+	    padding: 5px 10px;
+	    z-index: 99;
+    	margin-top: 2px;
+	    background: #fff;
+	    white-space: nowrap;
+	}
+	.preferentialType{
+		position: relative;
+    	text-align: left;
+	}

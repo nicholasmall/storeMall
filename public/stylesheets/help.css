@@ -1,0 +1,100 @@
+
+* {
+    list-style-type: none;
+}
+
+body {
+    background-color: #FAFAFA;
+}
+.content {
+    height: 400px;
+    width: 100%;
+    background: url(/static/images/img/helpBanner.png) no-repeat center center;
+    background-size: cover;
+}
+
+
+.col-sm-4 {
+    text-align: center;
+}
+
+.col-sm-4 img {
+    width: 100%;
+}
+
+.col-sm-4 .video_p {
+    line-height: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.liNum .li_active {
+    background-color: #1F5A9C;
+}
+
+.liNum .li_active a {
+    color: #fff;
+}
+
+.liNum .li_active:hover a {
+    color: #fff;
+}
+
+.liNum li:hover a {
+    color: #1F5A9C;
+}
+
+.liNum li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.liNum li {
+    border-radius: 5px;
+    line-height: 50px;
+}
+
+.panel-default {
+    border-color: #FFFFFF;
+}
+
+.panel-default > .panel-heading {
+    color: #333;
+    background-color: #fff;
+    border-color: #ddd;
+}
+
+#help .navbar-default .navbar-nav > li > a {
+    color: #000;
+}
+#help{
+    background-color: #FFFFFF;
+}
+
+.in {
+    display: none;
+}
+
+.container .panel-title {
+    font-size: 15px !important;
+    font-weight: 600 !important;
+}
+
+.container .panel-collapse {
+    font-size: 13px;
+}
+
+/*.content_1, .content_2, .content_3, .content_4 {*/
+    /*display: none;*/
+/*}*/
+.content_* {
+    display: none;
+}
+.content_0{
+    display: block;
+}
+
+.pagination {
+    float: right;
+    display: block !important;
+}

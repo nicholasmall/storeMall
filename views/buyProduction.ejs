@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="renderer" content="webkit">
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title><%= title %></title>
+    <%- include("./include/public") %>
+</head>
+<body style="background-color: #FAFAFA;">
+<%- include("./include/header") %>
+
+	<!-- 页面内容 -->
+	<div class="container" style="padding-top: 70px;">
+		<div class="col-sm-12">
+			<div class="col-sm-7">	
+			    <div class="gallery">
+            <div class="main-image">
+                <img src="/images/img/big1.jpg" alt="Placeholder" class="custom">
+            </div>
+
+            <ul class="thumbnails">
+                <li><a href="/images/img/big1.jpg"><img src="/images/img/thumbnail1.jpg" alt=""></a></li>
+                <li><a href="/images/img/big2.jpg"><img src="/images/img/thumbnail2.jpg" alt=""></a></li>
+                <li><a href="/images/img/big3.jpg"><img src="/images/img/thumbnail3.jpg" alt=""></a></li>
+                <li><a href="/images/img/big4.jpg"><img src="/images/img/thumbnail4.jpg" alt=""></a></li>
+            </ul>
+        </div>
+			</div>
+			<div class="col-sm-5">
+				<h2>安网(SAFEGEM)</h2>
+				<li>1.金融级加密，数据持续保护</li>
+				<li>2.冷端交易构造，秘钥永不触网</li>
+				<li>3.秘钥种子层层隔离，多重加密防护体系</li>
+				<li>4.独特安全蓝牙，升级无需更换</li>
+				<hr />
+				<p>
+					<span class="title_left">官方价格：</span>
+					<span style="color: red;font-size: 1.9rem;">¥4199</span>元
+				</p>
+				<p>
+					<span class="title_left">机身颜色：</span>
+					<span class="colorbox" style="border-color: red"><img src="/images/img/smallone.png">&nbsp;银色</span>
+				    <span class="colorbox"><img src="/images/img/smallone.png">&nbsp;金色</span>
+				</p>
+				
+				<p>
+					<span class="title_left">数量：</span>
+					<input id="text_box" type="text"  value="1" style="height: 46px;width:150px;text-align: center;"/>
+					<span style="padding: 1px 9px;position: absolute;">
+						<span id="add" class="glyphicon glyphicon-chevron-up"></span>
+					 	<span id="min" class="glyphicon glyphicon-chevron-down"></span>
+					</span>
+					 
+				<!-- 	<span id="add" class="add"/>^</span>
+					<span id="min" class="jian"/>^</span> -->
+					
+				</p>
+				<p><button class="buyBtn">立即购买</button></p>
+			</div>
+		</div>
+		
+	</div>
+	<!--切换-->
+	<div class="container">
+		<div class="col-sm-12">
+	<div class="box">
+		<ul style="padding: 0;">
+			<li class="cur" style="border-left:none">产品详情</li>
+			<li>核心功能</li>
+			<li>规格包装</li>
+		</ul>
+		<div class="cont cont1">
+			<img src="/images/img/production.png" style="width: 100%;"/>
+			<img src="/images/img/production_a.png" style="width: 100%;"/>
+			<img src="/images/img/production_b.png" style="width: 100%;"/>
+			<img src="/images/img/production_c.png" style="width: 100%;"/>
+			<img src="/images/img/production_d.png" style="width: 100%;"/>
+			<img src="/images/img/production_e.png" style="width: 100%;"/>
+		     <div class="col-sm-4" style="padding-top: 25px;text-align: center;">
+		     	<img src="/images/img/chanjian.png" style="width: 100%;"/>
+		     	<p style="padding-top: 10px;">常见问题</p>
+		     </div>
+		     <div class="col-sm-4" style="padding-top: 25px;text-align: center;">
+		     	<img src="/images/img/caozuo.png" style="width: 100%;"/>
+		     	<p style="padding-top: 10px;">视频教程</p>
+		     </div>
+		     <div class="col-sm-4" style="padding-top: 25px;text-align: center;">
+		     	<img src="/images/img/shuoming.png" style="width: 100%;"/>
+		     	<p style="padding-top: 10px;">说明手册</p>
+		     </div>
+		</div>
+		<div class="cont">
+			<div class="col-sm-12">
+			  	<table class="table table-bordered table-responsive">
+			  		<tr>
+			  			<h3>硬件规格</h3>
+			  		</tr>
+			  		<tr>
+			  			<td rowspan="3">用户管理</td>
+			  			<td >用户注册/登陆</td>
+			  			<td>用户帐号管理</td>
+			  		</tr>
+			  		<tr>
+			  			<td>个人资料</td>
+			  			<td>个人资料归档</td>
+			  		</tr>
+			  		<tr>
+			  			<td>消息中心</td>
+			  			<td>消息推送</td>
+			  		</tr>
+			  		
+			  		<tr>
+			  			<td rowspan="3">系统功能</td>
+			  			<td>二维码扫描传输</td>
+			  			<td>支持二维码扫描传输数据</td>
+			  		</tr>
+			  		<tr>
+			  			<td>指纹识别</td>
+			  			<td>支持指纹识别解锁</td>
+			  		</tr>
+			  		<tr>
+			  			<td>多语言</td>
+			  			<td>支持中英文</td>
+			  		</tr>
+			  		<tr>
+			  			<td rowspan="15">资产管理</td>
+			  			<td rowspan="2">币种</td>
+			  			<td>支持多币种：BTC，ETH，EOS，LTC，DASH，BCH，BTG，ETC，QTUM，XRP，SAFE，ERC-20 TOKEN</td>
+			  		</tr>
+			  		<tr>
+			  			<td>代币管理：增加删除ERC-20 TOKEN</td>
+			  		</tr>
+			  		<tr>
+			  			<td rowspan="4" >接收币</td>
+			  		</tr>
+			  		<tr>
+			  			<td>显示/选择接收地址</td>
+			  		</tr>
+			  		<tr>
+			  			<td>设置接收数额</td>
+			  		</tr>
+			  		<tr>
+			  			<td>动态生成接收信息二维码</td>
+			  		</tr>
+			  		<tr>
+			  			<td rowspan="4">发送币</td>
+			  		</tr>
+			  		<tr>
+			  			<td>收款人地址</td>
+			  		</tr>
+			  		<tr>
+			  			<td>设置发送数额</td>
+			  		</tr>
+			  		<tr>
+			  			<td>设置手续费</td>
+			  		</tr>
+			  		<tr>
+			  			<td rowspan="2">币余额</td>
+			  		</tr>
+			  		<tr>
+			  			<td>余额提醒/同步</td>
+			  		</tr>
+			  		<tr>
+			  			<td rowspan="3">空投</td>
+			  		</tr>
+			  	     <tr>
+			  	     	<td>支持各币种空投</td>
+			  	     </tr>
+			  	     <tr>
+			  	     	<td>支持合作项目方定向空投</td>
+			  	     </tr> 
+			  	     <tr>
+			  	     	<td rowspan="3">钱包账户</td>
+			  	     	<td rowspan="2">账户管理</td>
+			  	     	<td>添加监控冷钱包账户</td>
+			  	     </tr>
+			  	    <tr>
+			  	    	<td>删除监控冷钱包账户</td>
+			  	    </tr>
+			  	    <tr>
+			  	    	<td>切换钱包</td>
+			  	    	<td>多冷钱包支持</td>
+			  	    </tr>
+			  	    
+			  	      <tr>
+			  	     	<td rowspan="3">ERC-20</td>
+			  	     	<td rowspan="2">token详情</td>
+			  	     	<td>热端显示</td>
+			  	     </tr>
+			  	    <tr>
+			  	    	<td>冷端激活</td>
+			  	    </tr>
+			  	    <tr>
+			  	    	<td >搜索</td>
+			  	    	<td>快速查找</td>
+			  	    </tr>
+			  	    <tr>
+			  	    	<td rowspan="3">交易记录</td>
+			  	    	<td>选择币种</td>
+			  	    	<td>多币种支持</td>
+			  	    </tr>
+			  	    <tr>
+			  	    	<td>搜索</td>
+			  	    	<td>快速查找</td>
+			  	    </tr>
+			  	    <tr >
+			  	    	<td>交易记录详情</td>
+			  	    	<td>添加交易备注</td>
+			  	    </tr>
+			  	    <tr>
+			  	    	<td rowspan="2">安全升级</td>
+			  	    	<td rowspan="2">冷钱包升级</td>
+			  	    	<td>安全蓝牙设计</td>
+			  	    </tr>
+			  	    <tr>
+			  	    	<td>自动识别提醒软件更新</td>
+			  	    </tr>
+			  	    <tr>
+			  	    	<td rowspan="2">地址薄</td>
+			  	    	<td>我的地址</td>
+			  	    	<td>增加删除修改</td>
+			  	    </tr>
+			  	    <tr>
+			  	    	<td>联系人地址</td>
+			  	    	<td>增加删除修改</td>
+			  	    </tr>
+			  	    <tr>
+			  	    	<td rowspan="4">系统设置</td>
+			  	    	<td rowspan="3">安全权限</td>
+			  	    	<td>支付密码</td>
+			  	    </tr>
+			  	    <tr>
+			  	    	<td>指纹密码</td>
+			  	    </tr>
+			  	     <tr>
+			  	    	<td>手势密码</td>
+			  	    </tr>
+			  	    <tr>
+			  	    	<td>出厂设置</td>
+			  	    	<td>恢复出厂设置</td>
+			  	    </tr>
+			  	</table>
+
+			</div>
+		</div>
+	<div class="cont">
+		<div class="col-sm-12" style="float: left;margin: 20px auto;border-bottom: 1px solid #eee;">
+			<div class="col-sm-12">
+			    <p class="introduce">基本参数</p>
+			</div>
+			<div class="col-sm-2">
+			</div>
+			<div class="col-sm-5 packBox">
+			 	<p>材质：金属中框，后盖玻璃</p>
+			 	<p>尺寸：125*62*8.8mm</p>
+			 	<p>按键：开机/锁屏键</p>
+			 	<p>后置摄像头：1300+万像素带真闪光灯</p>
+			 	<p>屏幕尺寸：4英寸</p>
+			 	<p>分辨率：800*480</p>
+		    </div>
+			<div class="col-sm-5 packBox">
+				<p>指纹识别时间：小于500ms</p>
+				<p>指纹容错率：万分之一</p>
+				<p>触摸屏：多点触摸和手势</p>
+				<p>充电线材长度：0.8m</p>
+				<p>额定输出电压/电流：5V/1A</p>
+			</div>
+		</div> 
+		<div class="col-sm-12" style="border-bottom: 1px solid #eee;float: left;">
+			<div class="col-sm-2">
+			</div>
+			<div class="col-sm-5 packBox">
+			    <p class="introduce">主板</p>
+				<p>主芯片方案：MT6739</p>
+				<p>Flash/SDRAM：1G/8G</p>
+				<p>加密芯片：支持多种国密和商密算法</p>
+				<p>蓝牙：安全蓝牙</p>
+				<p>喇叭：支持</p>
+				<p>USB充电口：TYPE C，无数据传输功能</p>
+		    </div>
+		</div>
+			<div class="col-sm-12" style="float: left;margin: 20px auto;">
+				<div class="col-sm-2">
+			</div>
+			<div class="col-sm-5 packBox">
+			    <p class="introduce">电池</p>
+				<p>类型：锂聚合物</p>
+				<p>容量：1600mAh</p>
+		    </div>
+		</div>
+	</div>		
+</div>
+</div>
+</div>
+    <%- include("./include/buttom") %>
+</body>
+</html>
+<script src="/javascripts/jquery.simpleGal.js"></script>
+ <script>
+// 	小图查看大图
+       $(function() {
+           $('.thumbnails').simpleGal({
+                 mainImage: '.custom'});
+});
+//   计数器
+$(function() {
+	var t = $("#text_box");
+	$("#add").click(function() {
+		t.val(parseInt(t.val()) + 1)
+	});
+	$("#min").click(function() {
+		if(t.val() > 0) {
+			t.val(parseInt(t.val()) - 1)
+		}
+	});
+
+	$('.colorbox').click(function (){
+		$(this).css('border-color','red').siblings().css('border-color','#9e9494');
+	})
+
+	$('.buyBtn').on('click',function(){
+	    window.location.href="shoppingCar.ejs";
+	})
+});
+  
+// 选项卡切换
+ 
+ $(".box ul li").click(function() {
+    $(this).addClass("cur").siblings().removeClass("cur")
+    $(".cont").eq($(this).index()).show().siblings(".cont").hide()
+})
+ </script>
